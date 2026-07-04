@@ -1,4 +1,4 @@
-# NewInventaris2
+# Inventory Management Mobile App
 
 A modern Android inventory management application built with Jetpack Compose and Material Design 3. This application allows users to manage items, track borrowing history, and maintain inventory levels with a clean, intuitive interface.
 

@@ -1,0 +1,8 @@
+package io.github.ComposeKit2.Helper.Fetch
+
+sealed class ApiResult<out T> {
+    object Idle : ApiResult<Nothing>()
+    data class Success<out T>(val data: T) : ApiResult<T>()
+    data class Error(val message: String) : ApiResult<Nothing>()
+    object Loading : ApiResult<Nothing>()
+}
